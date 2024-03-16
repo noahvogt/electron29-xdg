@@ -1,7 +1,7 @@
 pkgbase = electron29-xdg
 	pkgdesc = Build cross platform desktop apps with web technologies
 	pkgver = 29.1.4
-	pkgrel = 1
+	pkgrel = 2
 	url = https://electronjs.org
 	arch = x86_64
 	license = MIT
@@ -81,6 +81,7 @@ pkgbase = electron29-xdg
 	optdepends = gtk4: for --gtk-version=4 (GTK4 IME might work better on Wayland)
 	optdepends = trash-cli: file deletion support (trash-put)
 	optdepends = xdg-utils: open URLs with desktop’s default (xdg-email, xdg-open)
+	conflicts = electron29
 	options = !lto
 	source = git+https://github.com/electron/electron.git#tag=v29.1.4
 	source = https://gitlab.com/Matt.Jolly/chromium-patches/-/archive/122-3/chromium-patches-122-3.tar.bz2

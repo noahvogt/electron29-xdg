@@ -10,9 +10,10 @@
 
 pkgver=29.1.4
 _gcc_patches=122-3
-pkgrel=1
+pkgrel=2
 _major_ver=${pkgver%%.*}
 pkgname="electron${_major_ver}-xdg"
+conflicts=("electron${_major_ver}")
 pkgdesc='Build cross platform desktop apps with web technologies'
 arch=(x86_64)
 url='https://electronjs.org'

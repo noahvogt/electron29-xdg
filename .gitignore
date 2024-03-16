@@ -1,2 +1,5 @@
+chromium-*
+electron/
 *.log
 *.tar.*
+nohup.out
